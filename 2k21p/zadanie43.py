@@ -51,6 +51,7 @@ for w in wiersze:
 
     listaPowierzchni = []
 
+    #Tworzymy liste wszystkich powierzchni
     for i in range(0,len(paryLiczb),2):
         if int(paryLiczb[i]) == 0:
             break
