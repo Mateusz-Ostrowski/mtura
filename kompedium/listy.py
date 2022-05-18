@@ -250,3 +250,8 @@ print(lista.index(13))
 lista = [5,7,3,2,1,4,5,6,7,8,4,5]
 print(lista.count(5))
 
+#Tworzenie z listy z powtorzeniami listy bez powtorzen
+lista = [1,2,3,4,13,43,54,76,67,34,23,1,2,11,1,1,1,1,1,1,2,2,2,2]
+bezPowtorzen = list(set(lista))
+print(bezPowtorzen)
+
